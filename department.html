@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido 
+    <meta http-equiv="refresh" content="10" />
+    -->
+
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>Flexbox</title>
+
+</head>
+
+
+<body>
+
+    <!-- contenedor header -->
+    <header class="contenedor__header" id="inicio">
+
+        <!-- contenedor__superior -->
+        <nav class="contenedor__superior">
+
+            <div class="contenedor">
+
+                <!-- logo -->
+                <div class="superior__logo">
+                    <img src="./imagenes/logo.svg" alt="">
+                    <h1 class="logo__titulo">Health +</h1>
+                </div>
+
+
+
+                <div class="superior__menu ocultar">
+                    <ul>
+                        <li><a href="index.html" class="menupagina" style="color: #cccccc;">Heim</a></li>
+                        <li><a href="about.html" class="menupagina" style="color: #cccccc;">Über uns</a></li>
+                        <li><a href="services.html" class="menupagina" style="color: #cccccc;">Dienstleistungen</a></li>
+                        <li><a href="department.html" class="menupagina"
+                                style="color: #00d09c; font-weight: 500;">Abteilung</a></li>
+                        <li><a href="contact.html" class="menupagina" style="color: #cccccc;">Kontakt</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+
+
+
+
+    </header>
+
+
+
+
+    <main>
+        <!-- banner -->
+        <section class="banner">
+            <div class="banner_fila">
+                <div class="contenedor">
+
+                    <div class="banner__lado1">
+
+                        <h3>
+                            Abteilung
+                        </h3>
+
+                        <p>
+                            Prevent the Spread Stay at Home, Stay Safe
+                        </p>
+
+                    </div>
+
+
+                    <div class="banner__lado2">
+                        <h5>
+                            <a href="index.html" class="ebanner">Heim</a> <span class="tbanner">
+                                »
+                                Abteilung page</span>
+                        </h5>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="contenedor__d1 titulo1 altura320px">
+            <div class="contenedor">
+
+                <div class="d1__fila">
+
+                    <div class="d1__lado1">
+
+                        <div class="d1lado1__texto">
+                            <h5>
+                                Abteilung
+                            </h5>
+                            <h3>We are give the best<span>Health services Abteilung</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                            </p>
+
+
+                        </div>
+
+                        <div class="d1lado1__referencia">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-solid fa-hand-holding-heart fa-xl" style="color: #ea9940;"></i>
+                                        Lorem ipsum dolor sit amet
+                                    </a>
+
+
+                                    <a href="#">
+                                        <i class="fa-solid fa-hand-holding-heart fa-xl" style="color: #ea9940;"></i>
+                                        Lorem ipsum dolor sit amet
+                                    </a>
+
+
+                                    <a href="#">
+                                        <i class="fa-solid fa-hand-holding-heart fa-xl" style="color: #ea9940;"></i>
+                                        Lorem ipsum dolor sit amet
+                                    </a>
+
+                                    <a href="#">
+                                        <i class="fa-solid fa-hand-holding-heart fa-xl" style="color: #ea9940;"></i>
+                                        Lorem ipsum dolor sit amet
+                                    </a>
+
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="d1__lado2">
+
+                        <article class="article__d1">
+                            <img src="./imagenes/d1.jpg" alt="d1" title="d1">
+                        </article>
+
+                        <article class="article__d1">
+                            <img src="./imagenes/d2.jpg" alt="d2" title="d2">
+                        </article>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+
+        <section class="contenedor__d2 titulo1 altura320px">
+            <div class="contenedor">
+
+                <div class="d2__fila">
+
+                    <div class="d2__arriba">
+                        <div class="d2arriba__texto titulo2">
+                            <h5>
+                                Abteilung
+                            </h5>
+                            <h3>We are give the best<span>Health services Abteilung</span></h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="d2__abajo">
+
+                        <article class="article__d2">
+                            <div class="articled2__cabecera">
+                                <img src="./imagenes/d3.jpg" alt="d3" title="">
+                            </div>
+
+                            <div class="articled2__cuerpo">
+                                <h4>General Surgery</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consect etur, adipisicing. Enim, mollitia!
+                                </p>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-phone-volume fa-lg" style="color: #eca353;"></i> (01)
+                                            269 69 69
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-hospital fa-lg" style="color: #eca353;"></i> Enim
+                                            mollitia
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </article>
+
+
+                        <article class="article__d2">
+                            <div class="articled2__cabecera">
+                                <img src="./imagenes/d4.jpg" alt="" title="">
+                            </div>
+
+                            <div class="articled2__cuerpo">
+                                <h4>General Surgery</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consect etur, adipisicing. Enim,
+                                    mollitia!
+                                </p>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-phone-volume fa-lg" style="color: #eca353;"></i> (01)
+                                            269 69 69
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-hospital fa-lg" style="color: #eca353;"></i> Enim
+                                            mollitia
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+                        </article>
+
+
+                        <article class="article__d2">
+                            <div class="articled2__cabecera">
+                                <img src="./imagenes/d5.jpg" alt="" title="">
+                            </div>
+
+                            <div class="articled2__cuerpo">
+                                <h4>General Surgery</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consect etur, adipisicing. Enim,
+                                    mollitia!
+                                </p>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-phone-volume fa-lg" style="color: #eca353;"></i> (01)
+                                            269 69 69
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-hospital fa-lg" style="color: #eca353;"></i> Enim
+                                            mollitia
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+                        </article>
+
+
+                        <article class="article__d2">
+                            <div class="articled2__cabecera">
+                                <img src="./imagenes/d6.jpg" alt="" title="">
+                            </div>
+
+                            <div class="articled2__cuerpo">
+                                <h4>General Surgery</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consect etur, adipisicing. Enim,
+                                    mollitia!
+                                </p>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-phone-volume fa-lg" style="color: #eca353;"></i> (01)
+                                            269 69 69
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-hospital fa-lg" style="color: #eca353;"></i> Enim
+                                            mollitia
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+                        </article>
+
+
+                        <article class="article__d2">
+                            <div class="articled2__cabecera">
+                                <img src="./imagenes/d7.jpg" alt="" title="">
+                            </div>
+
+                            <div class="articled2__cuerpo">
+                                <h4>General Surgery</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consect etur, adipisicing. Enim,
+                                    mollitia!
+                                </p>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-phone-volume fa-lg" style="color: #eca353;"></i> (01)
+                                            269 69 69
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-hospital fa-lg" style="color: #eca353;"></i> Enim
+                                            mollitia
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+                        </article>
+
+
+                        <article class="article__d2">
+                            <div class="articled2__cabecera">
+                                <img src="./imagenes/d8.jpg" alt="" title="">
+                            </div>
+
+                            <div class="articled2__cuerpo">
+                                <h4>General Surgery</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consect etur, adipisicing. Enim,
+                                    mollitia!
+                                </p>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-phone-volume fa-lg" style="color: #eca353;"></i> (01)
+                                            269 69 69
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-hospital fa-lg" style="color: #eca353;"></i> Enim
+                                            mollitia
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+                        </article>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="contenedor__d3 titulo1 altura320px">
+            <div class="contenedor">
+
+                <div class="d3__fila">
+
+                    <div class="d3__arriba">
+                        <div class="d3arriba__texto titulo2">
+                            <h5>Some More Features</h5>
+                            <h3>
+                                What We Provide
+                            </h3>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="d3__abajo">
+
+                        <article class="article__d3">
+                            <h4>Instant Medicine</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit et. Debitis nam, minima iste
+                                ipsum.
+                            </p>
+                        </article>
+
+                        <article class="article__d3">
+                            <h4>Instant Medicine</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit et. Debitis nam, minima iste
+                                ipsum.
+                            </p>
+                        </article>
+
+                        <article class="article__d3">
+                            <h4>Instant Medicine</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit et.
+                                Debitis nam, minima iste
+                                ipsum.
+                            </p>
+                        </article>
+
+                        <article class="article__d3">
+                            <h4>Instant Medicine</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit et. Debitis nam, minima iste
+                                ipsum.
+                            </p>
+                        </article>
+
+                        <article class="article__d3">
+                            <h4>Instant Medicine</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet elit et.
+                                Debitis nam, minima iste
+                                ipsum.
+                            </p>
+                        </article>
+
+                        <article class="article__d3">
+                            <h4>Instant Medicine
+                            </h4>
+                            <p>
+                                Lorem ipsum
+                                dolor sit amet
+                                elit et. Debitis
+                                nam, minima iste
+                                ipsum.
+                            </p>
+                        </article>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section class="contenedor__d4 titulo1 altura320px">
+            <div class="contenedor">
+                <div class="d4__fila">
+
+                    <div class="d4__arriba titulo2">
+                        <h5>Some More Features</h5>
+                        <h3>
+                            What We Provide
+                        </h3>
+                    </div>
+
+
+                    <div class="d4__abajo">
+
+                        <article class="article__d4">
+
+                            <div class="articled4__cabecera">
+                                <img src="./imagenes/posts1.jpg" alt="" title="">
+                            </div>
+
+
+                            <div class="articled4__cuerpo">
+
+                                <h5>Medical</h5>
+
+                                <h4>
+                                    The Right Choice For Your Health Care Needs
+                                </h4>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-user fa-lg" style="color: #00d09c;"></i> Usuario 1
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-calendar-days fa-lg" style="color: #00d09c;"></i>
+                                            Dic 23, 2024
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                        </article>
+
+
+                        <article class="article__d4">
+
+                            <div class="articled4__cabecera">
+                                <img src="./imagenes/posts2.jpg" alt="" title="">
+                            </div>
+
+
+                            <div class="articled4__cuerpo">
+
+                                <h5>Medical</h5>
+
+                                <h4>
+                                    The Right Choice For Your Health Care Needs
+                                </h4>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-user fa-lg" style="color: #00d09c;"></i> Usuario 1
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-calendar-days fa-lg" style="color: #00d09c;"></i>
+                                            Dic 23, 2024
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                        </article>
+
+
+                        <article class="article__d4">
+
+                            <div class="articled4__cabecera">
+                                <img src="./imagenes/posts3.jpg" alt="" title="">
+                            </div>
+
+
+                            <div class="articled4__cuerpo">
+
+                                <h5>Medical</h5>
+
+                                <h4>
+                                    The Right Choice For Your Health Care Needs
+                                </h4>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-user fa-lg" style="color: #00d09c;"></i> Usuario 1
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-calendar-days fa-lg" style="color: #00d09c;"></i>
+                                            Dic 23, 2024
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                        </article>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- contenedor__cita -->
+        <section class="contenedor__cita titulo1 altura320px">
+
+            <div class="contenedor">
+
+                <div class="cita__fila">
+
+                    <div class="cita__lado1">
+
+                        <div class="citafila__datos titulo2">
+                            <h5>
+                                Free Appointment
+                            </h5>
+                            <h3>
+                                Make an Appointment
+                            </h3>
+
+                            <p>
+                                We believe in providing the best possible care to all our
+                                existing patients and welcomenew
+                                patients to sample. Call <span> (01) 269 69 69</span>
+                            </p>
+
+                            <p>
+                                Morbi sit amet dapibus neque aenean aliquam ipsum eros, in
+                                varius justo volutpat at
+                                adipisicing.
+                            </p>
+                        </div>
+
+
+                        <div class="fila__botones2">
+
+                            <a href="contact.html" class="btn btn--orange">
+                                Kontakt
+                                <i class="fa-solid fa-circle-arrow-right fa-xl" style="color: #fff;"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="cita__lado2">
+
+                        <div class="referencia__cabecera altura2">
+                            <h4>Fill the form for appointment</h4>
+                        </div>
+
+                        <div class="referencia__formulario">
+                            <form action="#">
+
+                                <div class="formulario__opciones">
+                                    <div class="form__group">
+                                        <input type="text" name="nombre" id="nombre" placeholder="Name*" required="Yes"
+                                            class="form__control">
+                                    </div>
+
+
+                                    <div class="form__group">
+                                        <input type="email" name="email" id="email" placeholder="Email*" required="Yes"
+                                            class="form__control">
+                                    </div>
+
+
+                                    <div class="form__group">
+                                        <input type="text" name="numero" id="numero" placeholder="Number*"
+                                            required="Yes" class="form__control">
+                                    </div>
+
+
+                                    <div class="form__group">
+                                        <input type="date" name="number" id="number" placeholder="Number*"
+                                            required="Yes" class="form__control">
+                                    </div>
+
+
+                                    <div class="form__group">
+                                        <select id="departmento" name="departmento" required="Specialization"
+                                            class="form__control">
+                                            <option value="">Specialization*</option>
+                                            <option value="">Cardiology</option>
+                                            <option value="">Heart Surgery</option>
+                                            <option value="">Skin Care</option>
+                                            <option value="">Body Check-up</option>
+                                            <option value="">Numerology</option>
+                                            <option value="">Diagnosis</option>
+                                            <option value="">Others</option>
+                                        </select>
+                                    </div>
+
+
+                                    <div class="form__group">
+                                        <select id="doctor" name="doctor" required="Select Doctor"
+                                            class="form__control">
+                                            <option value="">Select Doctor*</option>
+                                            <option value="">Doctor 1</option>
+                                            <option value="">Doctor 2</option>
+                                            <option value="">Doctor 3</option>
+                                            <option value="">Doctor 4</option>
+                                            <option value="">Doctor 5</option>
+                                            <option value="">Doctor 6</option>
+                                            <option value="">Doctor 7</option>
+                                        </select>
+                                    </div>
+
+
+                                </div>
+
+
+                                <div class="formulario__boton">
+                                    <button>
+                                        Termin buchen <i class="fa-solid fa-paper-plane"></i>
+                                    </button>
+                                </div>
+
+
+                            </form>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+        </section>
+
+
+
+
+        <!-- contenedor__footer -->
+        <section class="contenedor__footer">
+            <div class="contenedor">
+                <div class="footer__fila">
+
+                    <div class="footer__section1">
+                        <h4 style="color: #65d072;">Health +</h4>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, non!
+                        </p>
+
+                        <div class="redsocial1">
+                            <a href="#"><img src="./imagenes/facebook1.svg" alt="facebook1" title="facebook1"></a>
+
+                            <a href="#"><img src="./imagenes/twitter1.svg" alt="twitter1" title="twitter1"></a>
+
+                            <a href="#"><img src="./imagenes/instagram1.svg" alt="instagram1" title="instagram1"></a>
+
+                            <a href="#"><img src="./imagenes/linkedin1.svg" alt="linkedin1" title="linkedin1"></a>
+
+                        </div>
+                    </div>
+
+
+                    <div class="footer__section1">
+                        <h4>Link</h4>
+
+                        <ul class="menu__opciones">
+                            <li><a href="index.html"><span>»</span> Heim</a></li>
+                            <li><a href="about.html"><span>»</span> über Uns</a></li>
+                            <li><a href="services.html"><span>»</span> Dienstleistungen</a></li>
+                            <li><a href="department.html"><span>»</span> Abteilung</a></li>
+                            <li><a href="contact.html"><span>»</span> Kontakt</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="footer__section1">
+                        <h4>Dienstleistungen</h4>
+
+                        <ul class="menu__opciones">
+                            <li><a href="services.html"><span>»</span> Dienstleistungen 1</a></li>
+                            <li><a href="services.html"><span>»</span> Dienstleistungen 2</a></li>
+                            <li><a href="services.html"><span>»</span> Dienstleistungen 3</a></li>
+                            <li><a href="services.html"><span>»</span> Dienstleistungen 4</a></li>
+                            <li><a href="services.html"><span>»</span> Dienstleistungen 5</a></li>
+                            <li><a href="services.html"><span>»</span> Dienstleistungen 6</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="footer__section1">
+                        <h4>Kontakt</h4>
+
+                        <ul class="menu__opciones">
+                            <li><a
+                                    href="https://api.whatsapp.com/send?phone=974731614&amp;text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20de%20los%20servicios">
+                                    <span>»</span> +51 974 731 614
+                                </a></li>
+                            <li><a href="mailto:gnerylozada@gmail.com"><span>»</span> gnerylozada@gmail.com</a>
+                            </li>
+                            <li><a href="services.html"><span>»</span> Grünstraße 15, 40212 Düsseldorf,
+                                    Germany</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+
+
+    <!-- pie -->
+    <footer class="contenedor__footerautor">
+        <div class="contenedor">
+
+            <div class="pie__titulo">
+                <p>
+                    &copy; 2024, Derechos Reservados, Diseñado por
+                    <span class="autor">93R50N</span>
+
+                    <br>
+                    Jeder Beitrag, egal wie klein, kann jemandes Leben verändern. Spende:
+                    <span class="donacion">
+                        <a href="https://wa.link/5nawh3"> Plin o Yape</a>
+                    </span>
+                </p>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>

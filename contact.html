@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido 
+    <meta http-equiv="refresh" content="10" />
+    -->
+
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>Flexbox</title>
+
+</head>
+
+
+<body>
+
+    <!-- contenedor header -->
+    <header class="contenedor__header" id="inicio">
+
+        <!-- contenedor__superior -->
+        <nav class="contenedor__superior">
+
+            <div class="contenedor">
+
+                <!-- logo -->
+                <div class="superior__logo">
+                    <img src="./imagenes/logo.svg" alt="">
+                    <h1 class="logo__titulo">Health +</h1>
+                </div>
+
+
+
+                <div class="superior__menu ocultar">
+                    <ul>
+                        <li><a href="index.html" class="menupagina" style="color: #cccccc;">Heim</a></li>
+                        <li><a href="about.html" class="menupagina" style="color: #cccccc;">Über uns</a></li>
+                        <li><a href="services.html" class="menupagina" style="color: #cccccc;">Dienstleistungen</a></li>
+                        <li><a href="department.html" class="menupagina" style="color: #cccccc;">Abteilung</a></li>
+                        <li><a href="contact.html" class="menupagina"
+                                style="color: #00d09c; font-weight: 500;">Kontakt</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+
+
+
+
+    </header>
+
+
+
+
+    <main>
+        <!-- banner -->
+        <section class="banner">
+            <div class="banner_fila">
+                <div class="contenedor">
+
+                    <div class="banner__lado1">
+
+                        <h3>
+                            Kontakt
+                        </h3>
+
+                        <p>
+                            Prevent the Spread Stay at Home, Stay Safe
+                        </p>
+
+                    </div>
+
+
+                    <div class="banner__lado2">
+                        <h5>
+                            <a href="index.html" class="ebanner">Heim</a> <span class="tbanner">
+                                »
+                                Kontakt page</span>
+                        </h5>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="contenedor__c1 titulo1 altura320px">
+            <div class="contenedor">
+
+                <div class="c1__fila">
+
+                    <div class="c1__arriba titulo2">
+
+                        <h5>
+                            Nam at orci in diam suscipit
+                        </h5>
+
+                        <h3>Kontaktieren Sie uns</h3>
+
+                    </div>
+
+
+                    <div class="c1__abajo">
+
+                        <article class="article__c1">
+
+                            <div class="articlec1__imagen">
+                                <i class="fa-solid fa-location-dot fa-2xl" style="color: #65d072;"></i>
+                            </div>
+
+
+                            <div class="articlec1__texto">
+                                <h4>
+                                    Address info
+                                </h4>
+
+                                <p>
+                                    Grünstraße 15, 40212 Düsseldorf, Germany
+                                </p>
+
+                            </div>
+
+
+                        </article>
+
+
+                        <article class="article__c1">
+
+                            <div class="articlec1__imagen">
+                                <i class="fa-solid fa-clock fa-2xl" style="color: #65d072;"></i>
+                            </div>
+
+
+                            <div class="articlec1__texto">
+                                <h4>
+                                    Opening hours
+                                </h4>
+
+                                <p>
+                                    Monday – Friday : 9am - 6pm
+                                    <br>
+                                    Saturday : 10am - 4pm
+                                </p>
+
+                            </div>
+
+
+                        </article>
+
+
+                        <article class="article__c1">
+
+                            <div class="articlec1__imagen">
+                                <i class="fa-brands fa-whatsapp fa-2xl" style="color: #65d072;"></i>
+                            </div>
+
+
+                            <div class="articlec1__texto">
+                                <h4>
+                                    Phone Number
+                                </h4>
+
+                                <p class="telefonos">
+                                    <a
+                                        href="https://api.whatsapp.com/send?phone=974731614&amp;text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20de%20los%20servicios">
+                                        +51 974 731 614
+                                    </a>
+
+
+                                    <a href="#">(01) 269 69 69</a>
+                                </p>
+
+                            </div>
+
+
+                        </article>
+
+
+                        <article class="article__c1">
+
+                            <div class="articlec1__imagen">
+                                <i class="fa-solid fa-envelope fa-2xl" style="color: #65d072;"></i>
+                            </div>
+
+
+                            <div class="articlec1__texto">
+                                <h4>
+                                    Contact info
+                                </h4>
+
+                                <p>
+                                    <a href="mailto:gnerylozada@gmail.com">gnerylozada@gmail.com</a>
+                                </p>
+
+                            </div>
+
+
+                        </article>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+
+
+
+        <section class="contenedor__c2 altura320px">
+            <div class="contenedor">
+
+                <div class="c2__fila">
+
+                    <div class="c2__arriba titulo2">
+
+                        <h5>
+                            Nam at orci in diam suscipit
+                        </h5>
+                        <h3>Senden Sie uns eine Nachricht</h3>
+
+                    </div>
+
+
+                    <div class="c2__abajo">
+
+
+                        <form action="#">
+                            <div class="form__group">
+                                <input type="text" name="nombre" id="nombre" placeholder="Name*" required="Yes"
+                                    class="form__control">
+                            </div>
+
+
+                            <div class="form__group">
+                                <input type="email" name="email" id="email" placeholder="Email*" required="Yes"
+                                    class="form__control">
+                            </div>
+
+
+                            <div class="form__group">
+                                <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Nachricht*"
+                                    required="Yes" class="form__control"></textarea>
+                            </div>
+
+                            <button>
+                                Nachricht Senden <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+
+                        </form>
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+
+
+
+        <section class="contenedor__c3 altura320px">
+            <div class="contenedor">
+
+                <div class="c3__fila">
+
+                    <div class="c3__arriba titulo2">
+
+                        <h5>
+                            Nam at orci in diam suscipit
+                        </h5>
+
+                        <h3>Hier finden Sie uns</h3>
+
+                    </div>
+
+
+
+                    <div class="c3__abajo">
+
+                        <div class="referencia__mapa">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d159870.10372333231!2d6.5025483234302754!3d51.23804056159047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8c97bf1465907%3A0x42760fc4a2a73b0!2sD%C3%BCsseldorf%2C%20Alemania!5e0!3m2!1ses-419!2spe!4v1731865640715!5m2!1ses-419!2spe"
+                                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- contenedor__footer -->
+        <section class="contenedor__footer">
+            <div class="contenedor">
+                <div class="footer__fila">
+
+                    <div class="footer__section1">
+                        <h4 style="color: #65d072;">Health +</h4>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, non!
+                        </p>
+
+                        <div class="redsocial1">
+                            <a href="#"><img src="./imagenes/facebook1.svg" alt="facebook1" title="facebook1"></a>
+
+                            <a href="#"><img src="./imagenes/twitter1.svg" alt="twitter1" title="twitter1"></a>
+
+                            <a href="#"><img src="./imagenes/instagram1.svg" alt="instagram1" title="instagram1"></a>
+
+                            <a href="#"><img src="./imagenes/linkedin1.svg" alt="linkedin1" title="linkedin1"></a>
+
+                        </div>
+                    </div>
+
+
+                    <div class="footer__section1">
+                        <h4>Link</h4>
+
+                        <ul class="menu__opciones">
+                            <li><a href="index.html"><span>»</span> Heim</a></li>
+                            <li><a href="about.html"><span>»</span> über Uns</a></li>
+                            <li><a href="services.html"><span>»</span> Dienstleistungen</a></li>
+                            <li><a href="department.html"><span>»</span> Abteilung</a></li>
+                            <li><a href="contact.html"><span>»</span> Kontakt</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="footer__section1">
+                        <h4>Dienstleistungen</h4>
+
+                        <ul class="menu__opciones">
+                            <li><a href="services.html"><span>»</span> Dienstleistungen 1</a></li>
+                            <li><a href="services.html"><span>»</span> Dienstleistungen 2</a></li>
+                            <li><a href="services.html"><span>»</span> Dienstleistungen 3</a></li>
+                            <li><a href="services.html"><span>»</span> Dienstleistungen 4</a></li>
+                            <li><a href="services.html"><span>»</span> Dienstleistungen 5</a></li>
+                            <li><a href="services.html"><span>»</span> Dienstleistungen 6</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="footer__section1">
+                        <h4>Kontakt</h4>
+
+                        <ul class="menu__opciones">
+                            <li><a
+                                    href="https://api.whatsapp.com/send?phone=974731614&amp;text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20de%20los%20servicios">
+                                    <span>»</span> +51 974 731 614
+                                </a></li>
+                            <li><a href="mailto:gnerylozada@gmail.com"><span>»</span> gnerylozada@gmail.com</a></li>
+                            <li><a href="services.html"><span>»</span> Grünstraße 15, 40212 Düsseldorf, Germany</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+
+
+
+    <!-- pie -->
+    <footer class="contenedor__footerautor">
+        <div class="contenedor">
+
+            <div class="pie__titulo">
+                <p>
+                    &copy; 2024, Derechos Reservados, Diseñado por
+                    <span class="autor">93R50N</span>
+
+                    <br>
+                    Jeder Beitrag, egal wie klein, kann jemandes Leben verändern. Spende:
+                    <span class="donacion">
+                        <a href="https://wa.link/5nawh3"> Plin o Yape</a>
+                    </span>
+                </p>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
