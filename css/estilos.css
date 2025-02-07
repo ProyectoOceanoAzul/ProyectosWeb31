@@ -2049,7 +2049,7 @@ span.donacion a:hover{
     article.article__h5 
     {
         max-width: 380px;
-        text-align: center;
+        text-align: left;
     }
 }
 
