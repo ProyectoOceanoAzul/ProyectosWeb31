@@ -2131,6 +2131,16 @@ span.donacion a:hover{
 }
 
 
+@media screen and (max-width: 470px)
+{
+    div.contenedor div.d2__fila div.d2__abajo article.article__d2 {
+        max-width: 280px;
+    }
+
+}
+
+
+
 @media screen and (max-width: 430px)
 {
     /*departme*/
